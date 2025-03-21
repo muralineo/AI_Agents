@@ -30,6 +30,6 @@ The `main.py` serves as the entry point of the application, setting up parameter
 The agent is designed to read each file ending with `.py` in its directory, process the content, and ultimately output a structured summary to the user.
 Use the `main.py` file to execute the example run provided in the repository.
 
-## Installation
+### Installation
 This project requires Python and the `litellm` library for completion engine calls. Ensure that all dependencies are covered by using Python package managers or manual installation via provided requirements.
 ---
