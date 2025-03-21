@@ -1,4 +1,4 @@
-# Project README
+# AI Agents
 
 ## Overview
 This project is built to simulate an agent that uses language models to achieve predefined goals by interacting with its environment through various actions. The primary goals of the agent are to gather information from project files and terminate its session by providing the content of its findings in a specified format.
@@ -9,7 +9,7 @@ This project is built to simulate an agent that uses language models to achieve 
 The `Agent` class is the core component of this project. It orchestrates the interaction between goals, agent language, actions, and environment. It constructs prompts based on its memory and goals, generates responses using the language model, executes actions, and updates itself based on the results.
 
 ### 2. Agent Language
-Defined in `agent_language.py`, this component facilitates the communication by constructing prompts and interpreting responses specifically formatted for use with LLMs.
+Defined in `agent_language.py`, this component facilitates communication by constructing prompts and interpreting responses specifically formatted for use with LLMs.
 
 ### 3. Environment
 The `Environment` class in `environment.py` is responsible for executing actions as defined by the agent and handles any errors that might occur during execution.
