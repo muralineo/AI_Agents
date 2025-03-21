@@ -26,8 +26,10 @@ Using the `llm_call.py` module, the agent interacts with a language model to gen
 ### 7. Main Execution
 The `main.py` serves as the entry point of the application, setting up parameters and initiating the agent's run sequence based on user input and goals.
 
-## Usage
-    - The agent is designed to read each file ending with `.py` in its directory, process the content, and ultimately output a structured summary to the user.
-    - Use the `main.py` file to execute the example run provided in the repository.\n\n## Installation\nThis project requires Python and the `litellm` library for completion engine calls. Ensure that all dependencies are covered by using Python package managers or manual installation via provided requirements.
+### Usage
+- The agent is designed to read each file ending with `.py` in its directory, process the content, and ultimately output a structured summary to the user.
+- Use the `main.py` file to execute the example run provided in the repository.
+
+## Installation
+This project requires Python and the `litellm` library for completion engine calls. Ensure that all dependencies are covered by using Python package managers or manual installation via provided requirements.
 ---
-The current design integrates memory and action-based interactions, adaptive prompts for adjusted retries, and structured results for seamless process flows as initiated by main goals set within the agent's architecture.\nTerminating...", 'timestamp': '2025-03-21T17:05:49+0530'
